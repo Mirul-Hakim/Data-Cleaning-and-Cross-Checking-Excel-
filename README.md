@@ -9,7 +9,7 @@ To build an automated reconciliation engine in Excel to identify missing records
 - Handled complex one-to-many relationships where a single Delivery Advice (DA) is linked to multiple Customer Advice (CA) entries.
 2. Advanced Logic & Identification (The "Indicator" System)
 - Status Versioning: Developed logic to interpret version suffixes (e.g., .1 for Active, .2 for Cancelled) to ensure only valid deliveries were processed.
-- Custom Indicators: Created a unique "Indicator" key using IF and XLOOKUP to differentiate entries where CA numbers and quantities were identical, preventing false duplicate flags.3.
+- Custom Indicators: Created a unique "Indicator" key using IF and XLOOKUP to differentiate entries where CA numbers and quantities were identical, preventing false duplicate flags.
 3. Data Cleaning (ETL)Performed rigorous data scrubbing to ensure 100% accuracy:
 - Deduplication: Identified and removed redundant unique DA identifiers.
 - Outlier Detection: Filtered inconsistent pricing or quantity entries.
